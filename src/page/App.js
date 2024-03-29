@@ -42,9 +42,9 @@ function App() {
     <>
       <Container fluid>
         <Row>
-          <Col className='left-sidebar'>
+          <Col className='left-sidebar ' >
             <Row className='left-sidebar-header'>
-              <Row className='d-flex align-items-center' style={{ backgroundColor: "green" }}>
+              <Row className='d-flex align-items-center' style={{ backgroundColor: "#6e2676" }}>
                 <Col>
                   {" "}
                   <ProfileHeader user={user} />

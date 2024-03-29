@@ -75,7 +75,7 @@ export const MessageBox = ({user}) => {
                             <RightChatBubble
                                 message={me}
                                 key={index}
-                                name={"Abhijeet Kumar"}
+                                name={"Dolly Aggarwal"}
                                 image={userImage}
                                 />
                         )

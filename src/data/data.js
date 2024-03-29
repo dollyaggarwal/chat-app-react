@@ -3,13 +3,13 @@ import user from "../reducers/user"
 export const data = {
     profile: {
         id: 1,
-        name: "Abhijeet Kumar",
+        name: "Dolly Aggarwal",
         image: user.image,
 
         contacts: [
             {
               id: 2,
-              name: "Abhishek",
+              name: "Mohit",
               image:
                 "https://st.depositphotos.com/12982378/52204/i/600/depositphotos_522040706-stock-photo-portrait-bearded-asian-man-stylish.jpg",
               chatlog: [
@@ -20,13 +20,13 @@ export const data = {
                   message_id: 1,
                 },
                 {
-                  text: "I am fine Abhijeet. How are you!",
+                  text: "I am fine Dolly. How are you!",
                   timestamp: "11:22 AM",
                   sender: "me",
                   message_id: 2,
                 },
                 {
-                  text: "I am great, Abhijeet.",
+                  text: "I am great, Dolly.",
                   timestamp: "10:03 AM",
                   sender: "user",
                   message_id: 3,
@@ -47,7 +47,7 @@ export const data = {
             },
             {
               id: 3,
-              name: " Antoine",
+              name: "Krishna",
               image:"https://st.depositphotos.com/12982378/56356/i/600/depositphotos_563563796-stock-photo-young-brunette-man-looking-away.jpg",
                 // "https://media.istockphoto.com/photos/portrait-of-a-confident-young-man-picture-id1141737652?b=1&k=20&m=1141737652&s=170667a&w=0&h=1Ni7irJ6VB9BXN7LbJIdNHP0h5EMoyJcRyvXl5_nzDs=",
               chatlog: [
@@ -85,12 +85,12 @@ export const data = {
             },
             {
               id: 4,
-              name: "Sophie",
+              name: "Neha",
               image:
                 "https://st3.depositphotos.com/12674628/16943/i/600/depositphotos_169431528-stock-photo-beautiful-student-with-books.jpg",
               chatlog: [
                 {
-                  text: "Hi, Abhijeet!",
+                  text: "Hi, Dolly!",
                   timestamp: "10:01 AM",
                   sender: "user",
                   message_id: 1,
@@ -102,7 +102,7 @@ export const data = {
                   message_id: 2,
                 },
                 {
-                  text: "I am great ,  Abhijeet.",
+                  text: "I am great ,  Dolly.",
                   timestamp: "10:03 AM",
                   sender: "user",
                   message_id: 3,
@@ -123,14 +123,14 @@ export const data = {
             },
             {
               id: 5,
-              name: "Alexander",
+              name: "Abhijeet",
               image:
                 "https://st3.depositphotos.com/1743476/16188/i/600/depositphotos_161885550-stock-photo-proud-latin-man.jpg",
               chatlog: [],
             },
             {
               id: 6,
-              name: "Benjamin",
+              name: "Krishna",
               image:
                 "https://st3.depositphotos.com/11233746/13899/i/600/depositphotos_138998024-stock-photo-handsome-young-man.jpg",
               chatlog: [
@@ -147,7 +147,7 @@ export const data = {
                   message_id: 2,
                 },
                 {
-                  text: "Are you sure,  Abhijeet ?",
+                  text: "Are you sure,  Dolly ?",
                   timestamp: "10:03 AM",
                   sender: "user",
                   message_id: 3,
@@ -168,7 +168,7 @@ export const data = {
             },
             {
               id: 7,
-              name: "Johannes",
+              name: "Sahil",
               image:
                 "https://st3.depositphotos.com/33359910/37659/i/600/depositphotos_376597274-stock-photo-handsome-smiling-young-man-isolated.jpghttps://st3.depositphotos.com/33359910/37659/i/600/depositphotos_376597274-stock-photo-handsome-smiling-young-man-isolated.jpg",
               chatlog: [
@@ -212,7 +212,7 @@ export const data = {
             },
             {
               id: 8,
-              name: "Emma",
+              name: "Kajal",
               image:"https://st4.depositphotos.com/20363444/28853/i/600/depositphotos_288537332-stock-photo-focused-young-girl-casual-clothes.jpg",
                 // "https://global-uploads.webflow.com/5d121ce15cf154f8f7d91740/5fb7e016798aa0ccca2ca0ba_Abhishek%20Dwivedi.jpg",
               chatlog: [],

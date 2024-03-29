@@ -1,6 +1,7 @@
 .messageBox{
     height: 95vh;
     overflow: auto;
+   
 }
 .messageBoxHeader{
     position: fixed;
@@ -8,7 +9,7 @@
     width: 100%;
     box-sizing: border-box;
     z-index: 3;
-    background-color: green;
+    background-color: #6e2676;
     border-bottom: 2px solid #ddd;
 }
 .NoMessageAlert{
@@ -34,9 +35,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: green;
+    background-color: #6e2676;
     margin-top: 30px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 25px;
 }
 .messRight{
@@ -51,10 +52,10 @@
     position: absolute;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 20px solid green;
+    border-top: 20px solid #6e2676;
     border-bottom: 20px solid transparent;
     border-bottom-left-radius: 10px;
-    left: 90%;
+    left: 85%;
     top: 100%;
 }
 @media screen and (max-width: 792px) {
@@ -74,12 +75,13 @@
     position: absolute;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 20px solid green;
+    border-top: 20px solid #6e2676;
     border-bottom: 20px solid transparent;
     border-bottom-left-radius: 10px;
     left: 10%;
     top: 100%;
 }
+
 @media screen and (max-width: 792px) {
     .messLeft {
       width: 200px;
@@ -94,13 +96,13 @@
     }
   }
 .name{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 23px;
+    font-weight: 700;
     color: #fff;
 }
 .message{
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     color: #ddd;
 }
 @media screen and (max-width: 622px) {
@@ -111,7 +113,7 @@
 .messageTime{
     font-size: 15px;
     text-transform: uppercase;
-    color: #222;
+    color: #ffffff94;
 }
 .messageInput{
     background-color: #ddd;
@@ -133,7 +135,7 @@
     padding: 10px;
     width: 20%;
     color: #fff;
-    background-color: green;
+    background-color: #6e2676;
     border: none;
     border-radius: 20px;
 }
