@@ -7,6 +7,7 @@ import userImage from "../../images/user.jpg"
 import { LeftChatBubble } from "./LeftChatBubble";
 import { MessageInput } from "./MessageInput";
 
+
 export const MessageBox = ({user}) => {
     const [chat, setChat] = useState([]);
     const [length, setLength] = useState();
@@ -63,6 +64,7 @@ export const MessageBox = ({user}) => {
         <div className="messageBox">
             <div className="messageBoxHeader">
                 <ProfileHeader user={user}/>
+                
             </div>
             {chat.length===0 && (
                 <p className="NoMessageAlert">NO MESSAGE FOUND</p>

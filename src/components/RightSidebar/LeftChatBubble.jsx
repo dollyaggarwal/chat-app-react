@@ -7,6 +7,8 @@ export const LeftChatBubble = ({message, name, image}) => {
                 <div className="leftBubble">
                     <div className="textMessage">
                         <p className="name">{name}</p>
+                        
+
                         <p className="message">{message.text}</p>
                         <span className="messageTime">{message.timestamp}</span>
                     </div>
